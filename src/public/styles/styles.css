@@ -1,0 +1,493 @@
+body {
+    color: rgb(255, 255, 255);
+    background: #121212;
+  }
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#card {
+  background: #17161C;
+  border-radius: 2px;
+  padding: 30px;
+
+}
+
+.card-button {
+  margin: -2px;
+}
+
+.card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #F2F2F5;
+}
+
+.card-subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #79798C;
+}
+
+.card-left {
+  background: #1D1D26;
+  margin-left: 15px;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-left-bottom {
+  background: #17161C;
+  border-radius: 0px 0px 2px 2px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+
+.card-left-bottom p {
+  padding: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #F2F2F5;
+
+}
+
+
+#nft-blk {
+  background: #1D1D26;
+  border-radius: 0px 2px 2px 0px;
+  border-top: 8px solid #17161C;
+}
+
+.nft-card {
+  background: #1D1D26;
+  border-right: 1px solid rgb(6, 3, 3);
+  margin-right: -14px;
+}
+
+.nft-card-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  padding-bottom: 5px;
+}
+
+#nft-blk-title-y {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #F2F2F5;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#nft-blk-title-x {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #79798C;
+  padding-top: 21px;
+  padding-bottom: 12px;
+
+}
+
+#nft-blk-title-yr {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #79798C;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#nft-blk-title-xr {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: right;
+  color: #F2F2F5;
+  padding-top: 21px;
+  padding-bottom: 12px;
+
+}
+
+#hr-line {
+  width: 478px;
+  height: 0px;
+  border: 1px solid #17161C;
+  padding-left: 0px !important;
+}
+
+#nft-blk-details-y {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #79798C;
+}
+
+#nft-blk-details-x {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #79798C;
+}
+
+#nft-blk-price-y {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #79798C;
+  padding-top: 5px;
+}
+
+#nft-blk-price-x-profit {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #3CD660;
+  padding: 5px;
+  }
+
+  #nft-blk-price-x-loss {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #BE3D2C;
+    padding: 5px;
+    }
+
+.nft-blk-details {
+  padding-top: 10px;
+  border-top: 1px solid rgb(6, 3, 3);
+  border-width: 100%;
+}
+
+.fa-plus {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 11px 10px 11px;
+  background: #282836;
+  border-radius: 2px;
+  color: #9452F7;
+}
+
+.fa-plus:hover {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 11px 10px 11px;
+  background: #26262a;
+  border-radius: 2px;
+  color: #9452F7;
+}
+
+.fa-chevron-down {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 11px 10px 11px;
+  background: #353547;
+  border-radius: 2px;
+  color:#F2F2F5;
+}
+
+.fa-chevron-down:hover {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 11px 10px 11px;
+  background: #44444e;
+  border-radius: 2px;
+  color:#F2F2F5;
+}
+
+.btn-primary {
+  padding: 0px;
+}
+
+.btn-primary-one {
+  background: #17161C;
+  color: #79798C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-primary-one:hover {
+  background: #F2F2F5;
+  color: #17161C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-primary-two {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #17161C;
+  color: #79798C;
+}
+
+.btn-primary-two:hover {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #F2F2F5;
+  color: #17161C;
+}
+
+.btn-primary-three {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #79798C;
+  background: #17161C;
+}
+
+.btn-primary-three:hover {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #F2F2F5;
+  color: #17161C;
+}
+
+.btn-primary-four {
+  background: #17161C;
+  color: #79798C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 60px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  align-items: center;
+}
+
+.btn-primary-four:hover {
+  background: #F2F2F5;
+  color: #17161C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  margin: 5px;
+  border-radius: 60px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  align-items: center;
+}
+
+.btn-primary-nav {
+  background: #17161C;
+  color: #79798C;
+  align-items: center;
+}
+
+.progress-data {
+  padding: 10px;
+}
+
+.progress {
+  height: 4px;
+  background: #282836;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.progress-bar {
+  background: #1FA8D1;
+}
+
+#logo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.navbar {
+  background: #121212;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.btn-nav-one {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F2F5;
+  padding: 30px;
+}
+
+.btn-nav-one:hover {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F2F5;
+  border-bottom: 5px solid #9452F7;
+  padding: 30px;
+}
+
+.btn-nav-two {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F2F5;
+  margin-right: 100px;
+}
+
+.btn-nav-two:hover {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F2F5;
+  margin-right: 100px;
+  padding: 30px;
+  border-bottom: 5px solid #9452F7;
+}
+
+.btn-nav-three {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F2F5;
+  padding: 30px;
+}
+
+.btn-nav-three:hover {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #181820;
+  background:#F2F2F5;
+  padding: 30px;
+}
+
+#header {
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+#header-dark {
+  background: #17161C;
+  padding: 20px;
+}
+
+#header-grey {
+  background: #1A1A22;
+  padding: 20px;
+}
+
+.fa-arrow-up {
+  color: #2BC23F;
+  margin-left: 15px;
+
+}
+
+.fa-arrow-down {
+  color: #BE3D2C;
+  margin-left: 15px;
+
+}
